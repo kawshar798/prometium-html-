@@ -1,0 +1,487 @@
+@media only screen and (min-width: 1600px){
+    .slider_caption h2 {
+        font-size: 67px;
+        font-weight: 600;
+        line-height: 78px;
+    }
+    .main_menu {
+        float: right;
+    }
+
+    .login_started_btn a,
+    .login_started_btn a{
+        padding: 11px 25px;
+    }
+    .main_menu ul li a {
+        padding: 10px 30px;
+    }
+	#slider_section{
+	    padding: 130px 50px;
+
+    padding-bottom: 7px;}
+	a.scrollbutton {
+
+    bottom: 30px;
+}
+
+
+}
+@media only screen and (max-width: 1336px){
+	
+	 .slider_caption h2 {
+        font-size: 48px;
+       
+    }
+}
+@media only screen and (max-width: 1199px){
+    .slider_caption h2 {
+        font-size: 38px;
+        line-height: 55px;
+    }
+    .slider_caption p {
+        font-size: 18px;
+    }
+
+    #howitswork_section {
+        padding-top: 70px;
+    }
+    .single_testimonial{
+        margin-bottom: 40px;
+    }
+    .owl-dots {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .single_feature h6 {
+        padding-bottom: 10px;
+        text-align: justify;
+    }
+    .team_section_title {
+        padding-top: 100px;
+        padding-bottom: 65px;
+    }
+	 .team_member_pic{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+		    margin: 0 auto;
+    }
+    .team_member_pic img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+    #brand_section {
+        padding-top: 20px;
+    }
+    a.text-center.partnar_btn{
+
+    }
+    .form_text h3{
+font-size: 35px;
+        white-space:normal;
+    }
+
+    ul.instagram_iamge li a img {
+        width: 49px;
+    }
+    .conpyWrite p{
+        font-size: 13px;
+    }
+	
+	.bank_list ul li {
+    float: left;
+    margin-left: 3px;
+}
+
+
+}
+@media only screen and (max-width: 991px){
+    .main_menu {
+        display: none;
+    }
+    .responsive-menu,
+    .slicknav_menu {
+        display: block;
+    }
+    ul.slicknav_nav {
+        position: absolute;
+        background-image: linear-gradient(to right, #42c8da, #00b8e3, #00a5ea, #008fea, #5975de);
+        right: -5px;
+        top: 100%;
+        z-index: 9;
+        border: 2px solid #fff;
+        padding: 5px 10px 10px;
+        margin-top: 8px;
+    }
+    .slicknav_menu .slicknav_menutxt {
+        display: none;
+    }
+    .slicknav_menu .slicknav_icon {
+        margin: 0;
+    }
+    .slicknav_nav li a {
+        border: 1px solid transparent;
+        margin: 8px 3px 0;
+        display: block;
+    }
+    .slicknav_nav a:hover {
+        background: transparent;
+        border-radius: 0;
+        color: #fff;
+        border: 1px solid #fff;
+    }
+
+    .service_box h2 {
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .service_box p {
+        text-align: justify;
+    }
+
+    .section_title {
+        padding-bottom: 50px;
+    }
+
+    .howitswork_description {
+        margin-top: 23px;
+    }
+
+    .howitswork_description h3 {
+        font-size: 20px;
+    }
+
+    #howitswork_section {
+        padding-bottom: 50px;
+    }
+
+    .single_feature {
+        text-align: center;
+    }
+
+    .single_feature p {
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    .single_testimonial p {
+        padding: 2px;
+
+        font-size: 14px;
+    }
+    #pricing_section {
+        padding: 60px;
+    }
+    .single_pricing_box p.plan_name {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .single_pricing_box p.plan_price {
+        font-size: 30px;
+    }
+
+    .price-details ul li {
+        font-size: 12px;
+    }
+
+    .signup_button {
+            margin-bottom: 40px;
+        padding: 20px 30px;
+        line-height: 0;
+        display: inline-block;
+    }
+
+    .single_brand {
+        padding: 5px;
+    }
+
+    .single_brand {}
+
+    .single_brand h6 {
+        font-size: 14px;
+    }
+
+    .single_brand p {
+        text-align: center;
+        padding-top: 8px;
+    }
+
+    a.text-center.partnar_btn {
+        margin: 20px auto;
+        /* width: 0px; */
+        padding: 5px 20px;
+        display: block;
+        line-height: 3;
+    }
+
+    .sign_up_form {
+        padding: 5px 10px;
+    }
+
+    .sign_up_form input[type='text'], .sign_up_form input[type='email'], .sign_up_form input[type='password'] {
+        padding: 3px;
+    }
+
+    .sign_up_form h4 {
+        margin: 0;
+        font-size: 17px;
+        padding: 5px;
+    }
+
+    .sign_up_form label {
+        margin: 0px;
+        font-size: 12px;
+        margin-left: 8px;
+        /* margin-top: -4px; */
+    }
+    #form_section {
+        margin-top: 80px;
+    }
+
+    .form_text {
+        margin-top: 61px;
+    }
+
+    .form_text h3 {
+        font-size: 22px;
+    }
+
+    .widget-title h6 {
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+
+    .single_widget ul li {
+        margin-bottom: 13px;
+        font-size: 10px;
+    }
+
+    .contact_widget p {
+        font-size: 11px;
+        white-space: normal;
+    }
+
+    .contact_widget p i, .contact_widget p span {
+        padding-right: 5px;
+    }
+
+    .footer_logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .conpyWrite p {
+        font-size: 11px;
+        text-align: left;
+    }
+
+    .bank_list ul li a img {
+        width: 25px;
+        height: auto;
+    }
+
+.form_text p.subtitle {
+    font-size: 13px;
+}
+	
+}
+@media only screen and (max-width: 767px){
+    .header_area .logo {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .responsive-menu, .slicknav_menu {
+        display: inline-block;
+        text-align: left;
+    }
+
+    .service_box {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+
+
+    .service_box h2 {
+        text-align: center;
+        padding: 6px 0px;
+    }
+
+    .service_box a.readmore_btn {
+        /* padding: 0px 30px; */
+        width: 125px;
+        display: inline-block;
+        line-height: 2;
+        /* border: 1px solid; */
+        margin-top: 10px;
+    }
+
+    .section_title h2 {
+        font-size: 25px;
+    }
+
+    .howitswork_description h3 {
+        font-size: 14px;
+    }
+
+    .single_feature h6 {
+        text-align: center;
+    }
+
+    .single_feature {
+            border-bottom: 1px solid rgba(255,255,255,.5);
+        padding-bottom: 12px;
+    }
+    .single_value_item p.subtitle {
+        text-align: center;
+    }
+
+    .single_value_item h6 {
+        text-align: center;
+    }
+
+    .single_value_item p {
+        text-align: center;
+    }
+
+    .single_value_item {
+        margin-bottom: 19px;
+    }
+    .signup_button {
+        width: 121px;
+        padding: 0;
+        line-height: 3;
+    }
+    .single_brand {
+        margin-bottom: 10px;
+    }
+    .single_widget {
+        margin-top: 44px;
+    }
+
+    img.img-fluid {}
+
+    ul.instagram_iamge li a img {
+        width: 79px;
+    }
+
+    .contact_widget p {
+        font-size: 13px;
+    }
+    .form_text {
+        /* background: red; */
+        margin-bottom: 149px;
+    }
+	.single_pricing_box {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    margin-bottom: 10px;
+	 margin-left: 10px;
+}
+
+
+
+}
+@media only screen and (max-width: 576px){
+    .form_text {
+        /* background: red; */
+        margin-bottom: 149px;
+    }
+
+    ul.instagram_iamge li a img {
+        width: 49px;
+    }
+    .slider_caption h2 {
+        font-size: 25px;
+        line-height: 28px;
+        padding-bottom: 12px;
+    }
+
+    .slider_caption p {
+        font-size: 14px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    .slider_caption a.slider_btn {
+        width: 170px;
+    }
+
+    .slider_caption a.slider_btn:after {
+        right: 11px;
+    }
+
+    .slider_caption a.slider_btn:hover:after {
+        right: 7px;
+    }
+
+    .single_team {
+        margin-bottom: 15px;
+    }
+
+   .team_member_pic{
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+		    margin: 0 auto;
+    }
+    .team_member_pic img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+    }
+
+    .section_title h2 {
+        font-size: 20px;
+    }
+
+    a.text-center.partnar_btn {
+        width: 180px;
+    }
+
+    a.partnar_btn:after {
+        right: 10px;
+        top: 6px;
+    }
+
+}
+@media only screen and (max-width: 420px){
+    .form_text {
+        /* background: red; */
+        margin-bottom: 149px;
+    }
+	
+	.login_started_btn a {
+    padding: 5px 17px;
+    font-size: 12px;
+}
+a.started_btn {
+    margin-left: 0px;
+}
+
+.slider_caption h2 {
+    font-size: 17px;
+}
+
+.sticky {
+    padding: 0px;
+}
+
+.testimonial_slider .owl-dots {
+    margin-top: 0px;
+}
+
+.section_title h2 {
+    font-size: 16px;
+}
+.single_pricing_box {
+    margin-left: 5px;
+}
+
+
+}

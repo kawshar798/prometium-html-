@@ -1,0 +1,1022 @@
+
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/custom-fonts/Montserrat-Regular.eot');
+    src: url('../fonts/custom-fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('../fonts/custom-fonts/Montserrat-Regular.woff') format('woff'),
+    url('../fonts/custom-fonts/Montserrat-Regular.ttf') format('truetype'),
+    url('../fonts/custom-fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg'),
+    url('../fonts/custom-fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WorkSans-Regular';
+    src: url('../fonts/custom-fonts/WorkSans-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/custom-fonts/WorkSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/custom-fonts/WorkSans-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/custom-fonts/WorkSans-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/custom-fonts/WorkSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/custom-fonts/WorkSans-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+
+    font-weight:400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url('../fonts/custom-fonts/Raleway-SemiBold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/custom-fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/custom-fonts/Raleway-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/custom-fonts/Raleway-SemiBold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/custom-fonts/Raleway-SemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/custom-fonts/Raleway-SemiBold.svg#svgFontName') format('svg'); /* Legacy iOS */
+
+    font-weight:600;
+    font-style: normal;
+}
+
+/*@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500');*/
+
+body{
+font-size: 15px;
+
+}
+/*----------------------------
+---------- RESET CSS ---------
+----------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+}
+p{
+    font-size: 15px;
+    line-height: 30px;
+    color: #5f5f5f;
+    font-family: 'WorkSans-Regular';
+}
+a {
+    transition: 0.3s;
+}
+a,
+a:hover {
+    color: #25b6c2;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+iframe {
+    width: 100%;
+    border: none;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+button:focus {
+    text-decoration: none;
+    border: none;
+    outline: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ol {
+    margin-bottom: 0;
+}
+select:focus,
+select:active {
+    box-shadow: none;
+    border: 0;
+    outline: 0
+}
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+    outline: none;
+}
+button{
+    cursor: pointer;
+}
+textarea {
+    height: 120px;
+}
+input[type="text"],
+input[type="submit"],
+button[type="submit"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="search"],
+input[type="password"],
+input[type="number"],
+textarea {
+    background: transparent;
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+input[type="submit"],
+button[type="submit"] {
+    width: auto;
+    color: #5f5f5f;
+    padding: 4px 15px;
+}
+textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+.subtitle {
+    color: #87959c;
+    letter-spacing: 5px;
+    margin-bottom: 8px;
+}
+/*--------------------------------------
+-------- HEADER AREA CSS START --------
+---------------------------------------*/
+
+.header_area{
+    padding: 40px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.4s;
+    width: 100%;
+    z-index: 99;
+    background: transparent;
+
+
+}
+.header_area .logo{}
+.header_area .logo img{}
+.main_menu{
+	float:right;
+}
+.main_menu ul{}
+.main_menu ul li{
+    display: inline-block;
+    text-transform: capitalize;
+}
+.main_menu ul li a {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Raleway-SemiBold;
+    padding: 5px 19px;
+    border: 1px solid transparent;
+}
+
+.slicknav_menu {
+    padding: 0;
+    background: transparent;
+}
+.slicknav_menu a.active,
+.main_menu ul li a:hover
+/*.main_menu ul li a.active*/
+{
+    border: 1px solid #ffffff;
+}
+.slicknav_menu{
+    display: none;
+}
+.login_started_btn{
+    text-align: right;
+}
+.login_started_btn a {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Raleway-SemiBold';
+    padding: 7px 18px;
+    border-radius: 25px;
+    border: 1px solid #8c9ce8;
+}
+.started_btn{
+    margin-left: 10px;
+}
+.login_started_btn a:hover{
+    background: #ffffff;
+    color:#5480dd;
+    border:1px solid #5480dd;
+}
+
+.sticky{
+    background-image: linear-gradient(to right, #42c8da, #00b8e3, #00a5ea, #008fea, #5975de);
+    padding: 30px 50px;
+}
+
+/*--------------------------------------
+-------- SLIDER AREA CSS START --------
+---------------------------------------*/
+#slider_section {
+    background: url(../img/03_homepage.png);
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+    padding: 130px 50px ;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 0px;
+}
+.slider_image{
+  }
+.slider_image img {
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 44px;
+}
+.slider_caption {
+    padding-bottom: 107px;
+}
+.slider_caption h2{
+    font-size: 55px;
+    color: #ffffff;
+    line-height: 70px;
+    font-family: 'Montserrat-Regular';
+    padding-bottom: 25px;
+    padding-top: 50px;
+    font-weight: 400;
+}
+.slider_caption p{
+    font-size: 23px;
+    font-family: 'WorkSans-Regular';
+    color: #ffffff;
+    line-height: 2;
+}
+.slider_caption a{}
+.slider_caption a.slider_btn,
+.service_box  a.readmore_btn,
+.signup_button,
+.partnar_btn
+{
+    color: #202020;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 52px;
+    width: 220px;
+    text-align: center;
+    border-radius: 26px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    transition: .3s;
+}
+
+.slider_caption a.slider_btn{
+    position: relative;
+    color: #ffffff;
+    margin-top: 45px;
+}
+.slider_caption a.slider_btn:after {
+    right: 25px;
+    position: absolute;
+    top: 0;
+    content: "\f04b";
+    font-family: fontawesome;
+    color: #fff;
+}
+.slider_caption a.slider_btn:hover,
+.slider_caption a.slider_btn:hover:after
+{
+background: #ffffff;
+    color: #0bd7fc;
+}
+.slider_caption a.slider_btn:hover:after{
+    background: none;
+    right: 18px;
+    transition: .3s;
+}
+
+a.scrollbutton {
+    width: 17px;
+    position: absolute;
+    /* background: red; */
+    height: 27px;
+    bottom: 0;
+    left: 0;
+    /* transform: translateX(-50%); */
+    border: 2px solid #fff;
+    border-radius: 26px;
+    right: 0;
+    display: inline-block;
+    margin: 0 auto;
+    bottom: 20px;
+}
+
+a.scrollbutton span {
+    width: 3px;
+    height: 3px;
+    background: #fff;
+    display: block;
+    top: 5px;
+    position: relative;
+    margin: 0 auto;
+}
+a.scrollbutton:hover >span {
+    top: 17px;
+}
+/*--------------------------------------
+-------- SERVICE AREA CSS START --------
+---------------------------------------*/
+#service_section{}
+.service_box{
+    padding:59px 5px 0 5px;
+}
+.service_box img{}
+.service_box h2 {
+    font-size: 18px;
+    color: #202020;
+    font-weight: 700;
+    font-family: 'Montserrat-Regular';
+    padding: 12px 0 10px 0;
+    padding-top: 25px;
+}
+.service_box  p{
+    font-size: 15px;
+    line-height: 30px;
+    color: #5f5f5f;
+    text-align: justify;
+}
+.service_box a.readmore_btn {
+    background: transparent;
+    border: 1px solid #e2ebf1;
+    margin-top: 23px;
+    /* padding: 5px 12px; */
+    border-radius: 55px;
+    width: 150px;
+}
+
+.service_box a.readmore_btn:hover {
+    background: #0bd7fc;
+    color: #ffffff;
+}
+/*--------------------------------------
+-------- How ITS WORK AREA CSS START --------
+---------------------------------------*/
+#howitswork_section{
+    padding: 129px 0;
+    background: url(../img/t_bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.howitswork_slider{}
+
+.howitswork_slider_item img{
+    border-radius: 8px;
+    background-color: rgb(214, 214, 214);
+}
+.feature_description {
+    padding-top: 35px;
+}
+.howitswork_description {
+    margin-top: 10px;
+}
+.howitswork_description img{}
+.howitswork_description h2 {
+    font-size: 15px;
+    color: #171717;
+    font-family: 'Montserrat-Regular';
+    margin-left: 70px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    text-align: left;
+}
+.howitswork_description p{
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 70px;
+}
+
+
+.section_title{
+    padding-bottom: 100px
+}
+.section_title h2{
+    color: #202020;
+    font-size: 32px;
+    font-family: 'Montserrat-Regular';
+}
+.section_title h4{
+    font-size: 15px;
+    font-family: 'Montserrat-Regular';
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.owl-dots .owl-dot{
+    display: inline-block;
+}
+.owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    background: #b7c3c9;
+    display: block;
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+.owl-dots .owl-dot.active span{
+    width: 12px;
+    height: 12px;
+    background: #0bd7fc;
+}
+/*--------------------------------------
+-------- TESTIMONIAL AREA CSS START --------
+---------------------------------------*/
+#testimonial_area {
+    background: url(../img/bg2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.testimonial_slider{}
+.testimonial_title {
+    padding-bottom: 74px;
+}
+.single_testimonial,
+a .brand_details {
+    background: #ffffff;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,.1);
+    margin: 0px 15px;
+    margin-top: 70px;
+    position: relative;
+    padding-top: 85px;
+    margin-bottom: 20px;
+}
+.single_testimonial img {
+    max-width: 134px;
+    border-radius: 50%;
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.single_testimonial p {
+    color: #535353;
+    font-size: 15px;
+    font-family:'Work Sans', sans-serif;
+    line-height: 30px;
+    padding: 0 36px;
+}
+.single_testimonial h5{
+    color: #202020;
+    font-family: 'Montserrat-Regular';
+    font-weight: 600;
+    border-top: 1px solid #e5e5e5;
+    padding: 15px 0;
+    margin: 0 20px;
+}
+
+.testimonial_slider .owl-dots{
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+    /*--------------------------------------
+    -------- FEATURE AREA CSS START --------
+    ---------------------------------------*/
+
+#feature_section {
+    background: url(../img/feature_bg.png);
+    background-position: center center;
+    padding: 70px  0px;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.single_feature {
+    margin-bottom: 30px;
+}
+.single_feature i{
+    padding-bottom: 20px;
+}
+.single_feature h6 {
+    padding-bottom: 25px;
+}
+.single_feature p {
+    font-size: 14px;
+    color: #fff;
+}
+
+
+/*--------------------------------------
+-------- VALUES AND TEAM AREA CSS START --------
+---------------------------------------*/
+#values_and_team {
+    padding-top: 75px;
+}
+.single_value_item{
+    padding-bottom: 16px;
+}
+.single_value_item p.subtitle{
+    color: #87959c;
+    letter-spacing: 5px;
+    margin-bottom: 8px;
+}
+.single_value_item h6{
+    font-family: Montserrat-Regular;
+    font-size: 22px;
+    color: #202020;
+    margin-bottom: 10px;
+
+}
+.single_value_item_1{
+    border-bottom: 3px solid #20edd7;
+}
+.single_value_item_2{
+    border-bottom: 3px solid #0bd7fc;
+}
+.single_value_item_3{
+    border-bottom: 3px solid #736de2;
+}
+
+
+.single_value_item p{
+    font-family: WorkSans-Regular;
+    color: #5f5f5f;
+    line-height: 30px;
+    font-size: 15px
+}
+.team_section_title{
+    padding-top: 130px;
+}
+.single_team{
+
+}
+.team_member_pic{
+    position: relative;
+    overflow: hidden;
+	 width: 250px;
+    height: 250px;
+	 border-radius: 50%;
+	 
+}
+.team_member_pic:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    background: rgba(0,0,0,.4);
+    border-radius: 50%;
+    right: 0;
+    /* opacity: .4; */
+    transition: .3s;
+    visibility: hidden;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+}
+.team_member_pic:hover:after {
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.team_member_pic img {
+  max-width:250px;
+  height:250px;
+}
+.member_des p{
+    font-size: 12px;
+    color: #0bd7fc;
+    display: block;
+    text-transform: uppercase;
+    line-height: 20px;
+}
+.member_des p.member_name{
+    color: #202020;
+    margin-top: 40px;
+    font-size: 14px;
+
+}
+
+
+/*--------------------------------------
+-------- Pricing AREA CSS START --------
+---------------------------------------*/
+
+#pricing_section {
+    padding-top: 124px;
+}
+.single_pricing_box {
+    border-bottom: 1px solid #e2ebf1;
+    border-top: 1px solid #e2ebf1;
+    padding-top: 30px;
+    transition: .3s;
+}
+.single_pricing_box p.plan_name{
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.single_pricing_box p.plan_price{
+    font-size: 46px;
+    color: #262b2f;
+    padding-bottom: 6px;
+    font-family: 'Montserrat-Regular';
+    font-weight: 600;
+}
+.single_pricing_box p.plan_price_month{
+    color: #87959c;
+    font-size: 14px;
+    text-align: center;
+    font-family: WorkSans-Regular;
+    font-style: italic;
+}
+.basic p{
+    color: #20edd7;
+}
+.premium p{
+    color: #0bd7fc;
+}
+.business p{
+    color: #1f90f9;
+}
+.ultimate p{
+    color: #655ee0;
+}
+.col-lg-3:first-child .single_pricing_box {
+    border-left: 1px solid #e2ebf1;
+    /* background: red; */
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.col-lg-3:last-child .single_pricing_box {
+    border-right: 1px solid #e2ebf1;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.price-details{}
+.price-details ul{}
+.price-details ul li {
+    font-size: 15px;
+    font-family: 'WorkSans-Regular';
+    color: #535353;
+    line-height: 25px;
+    padding-bottom: 14px;
+    position: relative;
+    text-align: center;
+}
+.price-details ul li:before {
+    content: "\f00c";
+    font-family: fontawesome;
+    color: #20edd7;
+    margin-right: 15px;
+
+}
+.signup_button {
+    background: transparent;
+    color: #535353;
+    margin-top: 26px;
+    font-size: 13px;
+    margin-bottom: 48px;
+    width: 142px;
+}
+.no_padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+.single_pricing_box.active,
+.single_pricing_box:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,.25);
+    border-radius: 6px;
+    border: none;
+    margin-top: -10px;
+    border-left: 1px solid ;
+    border-top: 5px solid;
+    transition: all 0.3s ease;
+    min-height: 535px;
+    z-index: 1;
+
+
+}
+.basic .signup_button:hover{
+    background: #20edd7;
+    color: #ffffff;
+}
+.single_pricing_box.active .signup_button,
+.premium .signup_button:hover{
+    background: #0bd7fc;
+    color: #ffffff;
+}
+.business .signup_button:hover{
+    background: #1f90f9;
+    color: #ffffff;
+}
+.ultimate .signup_button:hover{
+    background: #655ee0;
+    color: #ffffff;
+}
+.basic:hover{
+    border-color:#20edd7;
+}
+.single_pricing_box.active,
+.premium:hover{
+    border-color: #0bd7fc;
+}
+.business:hover{
+    border-color: #1f90f9;
+}
+.ultimate:hover{
+    border-color: #655ee0;
+}
+
+/*--------------------------------------
+-------- BRAND AREA CSS START --------
+---------------------------------------*/
+#brand_section{
+    padding-top: 130px;
+}
+
+.single_brand {
+    box-shadow: 0 0 15px rgba(0,0,0,.2);
+    border-radius: 6px;
+    padding: 53px 35px 33px 35px;
+}
+
+.single_brand img{
+    margin: 30px 0;
+    min-height: 90px;
+}
+.single_brand h6{
+    font-family: 'Montserrat-Regular';
+    color: #171717;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.single_brand p {
+    font-size: 13px;
+    color: #5f5f5f;
+    line-height: 26px;
+}
+.single_brand p span {
+    font-style: italic;
+}
+
+a.partnar_btn {
+    color: #202020;
+    background: transparent;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin: 0 auto;
+    /* box-shadow: 0px 0px 7px 3px rgba(0,0,0,.1); */
+    margin-bottom: 200px;
+    margin-top: 50px;
+    font-size: 14px;
+    position: relative;
+    transition: .3s;
+
+}
+a.partnar_btn:after{
+    right: 24px;
+    position: absolute;
+    top: 0;
+    content: "\f04b";
+    font-family: fontawesome;
+    color: #23e1c8;
+}
+a.partnar_btn:hover{
+background:#23e1c8 ;
+    color: #ffffff;
+}
+a.partnar_btn:hover:after{
+    color: #ffffff;
+    right: 20px;
+    transition: .4s;
+}
+
+
+/*--------------------------------------
+-------- Form AREA CSS START --------
+---------------------------------------*/
+#form_section{
+    background: url("../img/form_bg.png");
+    background-size: cover;
+}
+
+.form_text {
+    margin-top: 145px;
+}
+.form_text p.subtitle{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.form_text h3 {
+    color: #ffffff;
+    font-size: 45px;
+    font-family: 'Montserrat-Regular';
+    white-space: nowrap;
+    font-weight: 400;
+    font-weight: 600;
+}
+.sign_up_form {
+    background:#ffffff;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,.1);
+    padding: 45px 45px 35px;
+    border-radius: 5px;
+    margin-top: -77px;
+    margin-bottom: -88px;
+    min-height: 100%;
+}
+.sign_up_form h4 {
+    color: #202020;
+    font-family: 'Montserrat-Regular';
+    font-size: 24px;
+    margin-bottom: 39px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sign_up_form input[type='text'],
+.sign_up_form input[type='email'],
+.sign_up_form input[type='password']
+{
+    border-bottom: 1px solid #d7e4ed;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    font-family: 'WorkSans-Regular';
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.sign_up_form label {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #87959c;
+    font-family: 'WorkSans-Regular';
+    margin-left: 10px
+}
+
+
+
+
+
+.call_us_or{
+    font-family: 'WorkSans-Regular';
+    font-weight: 500;
+    font-size: 13px;
+    color: #5a6e79;
+    line-height: 1.4;
+    padding-right: 30px;
+    margin-top: 20px
+}
+.call_us_or span {
+    color: #6559dd;
+}
+
+.sign_up_form input[type="submit"] {
+    width: auto;
+    padding: 4px 18px;
+    cursor: pointer;
+    line-height: 35px;
+    margin-top: 16px;
+    background: #0bd7fc;
+    color: #fff;
+    border-radius: 30px;
+    transition: .3s;
+}
+.sign_up_form .submitBtn:hover{
+    background: #ffffff;
+    color: #0bd7fc;
+}
+.login_link {
+    color: #87959c;
+    font-family: 'WorkSans-Regular';
+    font-weight: 500;
+    font-size: 13px;
+    transition: .3s;
+
+}
+.login_link:hover {
+    text-decoration: underline;
+    color: #87959c;
+}
+
+
+/*--------------------------------------
+-------- Big Footer AREA CSS START --------
+---------------------------------------*/
+
+#big_footer{
+    margin-top: 150px;
+}
+.help_widget{}
+.widget-title h6{
+    font-family: 'Montserrat-Regular';
+    font-size: 15px;
+    font-weight: 600;
+    color: #202020;
+    margin-bottom: 22px;
+}
+
+.single_widget ul li{
+    margin-bottom: 16px;
+}
+.single_widget ul li a{
+    font-family: 'WorkSans-Regular';
+    font-size: 14px;
+    color: #535353;
+}
+ul.instagram_iamge li{
+    display: inline-block;
+}
+ul.instagram_iamge li a{
+    display: inline-block;
+}
+ul.instagram_iamge li a img {
+    height: 67px;
+    width: 60px;
+    opacity: .6;
+    transition: .3s;
+}
+ul.instagram_iamge li a:hover img {
+    opacity: 1;
+}
+.contact_widget p{
+    font-size: 14px;
+    white-space: nowrap;
+}
+.contact_widget p i,
+.contact_widget p span
+{
+    color: #0bd7fc;
+    padding-right: 12px;
+}
+
+
+/*--------------------------------------
+-------- Footer AREA CSS START --------
+---------------------------------------*/
+
+#footer {
+    padding: 30px 0;
+    border-top: 1px solid #e2ebf1;
+}
+.conpyWrite{}
+.conpyWrite p{
+    color: #535353;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'WorkSans-Regular';
+}
+.conpyWrite p span{
+    color: #171717;
+}
+.bank_list {}
+.bank_list ul li {
+    display: inline-block;
+}
+
+.bank_list ul li a {
+    opacity: .9;
+    transition: .3s;
+    display: inline-block;
+}
+.bank_list ul li a:hover{
+    opacity: 1;
+}
+.bank_list ul li a img{}
+
+
+#bottom_to_top {
+    font-size: 20px;
+    bottom: 50px;
+    background-image: linear-gradient(to right, #42c8da, #00b8e3, #00a5ea, #008fea, #5975de);
+    position: fixed;
+    right: 50px;
+    /* padding: 10px 15px; */
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+    z-index: 999;
+    overflow: hidden;
+    color: #ffffff;
+
+}
